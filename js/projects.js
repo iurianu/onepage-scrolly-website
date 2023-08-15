@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$("a#resume").click(function(){
+		$("#canvas").load("projects/resume-responsive.html");
+	});
+	$("a#apps").click(function(){
+		$("#canvas").load("projects/dublin-apps.html");
+	});
+	$("a#irc").click(function(){
+		$("#canvas").load("projects/irc-tiles.html");
+	});	
+	$("a#castlot").click(function(){
+		$("#canvas").load("projects/castlot.html");
+	});	
+	$("a#monetago").click(function(){
+		$("#canvas").load("projects/monetago.html");
+	});
+	$("a#mizunokotoba").click(function(){
+		$("#canvas").load("projects/mizunokotoba.html");
+	});
+	$("a#chemwatch").click(function(){
+		$("#canvas").load("projects/chemwatch.html");
+	});
+});

@@ -1,0 +1,201 @@
+/* GENERAL STYLES */
+
+* {margin: 0; padding: 0;}
+
+html {height: 101%;}
+
+body {
+	background: -webkit-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: 	 -moz-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: 		-ms-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: 		 -o-radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+  background: 				radial-gradient(#FFFFFF, #e7e8ea, #c4c5ca, #575865, #1b1b2d);
+	background-size: auto;
+}
+
+ul, li {display: block; list-style: none;}
+
+a, a:link, a:hover, a:focus, a:active, a:visited {text-decoration: none;}
+
+h1 {
+	font-family: 'Lora', serif;
+	color: #333;
+	float: left;
+}
+
+h1.header {color: #fff;}
+
+h4 {font-style: italic;}
+
+@media screen and (max-width: 480px){
+	h1 {font-size: 20px;}
+	h2 {font-size: 15px; font-weight: bold;}
+	h4 {font-size: 15px; font-weight: bold;}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+	h1 {font-size: 25px;}
+	h2 {font-size: 20px; font-weight: bold;}
+	h4 {font-size: 16px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	h1 {font-size: 30px; padding-left: 10px;}
+	h2 {font-size: 25px;}
+	h4 {font-size: 17px;}
+}
+
+@media screen and (min-width: 993px){
+	h1 {font-size: 35px; padding-left: 10px;}
+	h2 {font-size: 30px;}
+	h4 {font-size: 18px;}
+}
+
+/* TOP NAVIGATION BAR STYLES */
+
+.navbar-brand {padding: 5px;}
+
+img.logo {
+	height: 45px;
+	width: auto;
+	background-color: #fff;
+	border: 1px solid #2d2d2a;
+	-webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			 -o-border-radius: 10px;
+					border-radius: 10px;
+}
+
+img.logo:hover {
+	-webkit-filter: blur(1px); 
+		 -moz-filter: blur(1px); 
+		  -ms-filter: blur(1px);
+			 -o-filter: blur(1px); 
+					filter: blur(1px);
+}
+
+ul#navigation-top {
+	margin-top: 15px;
+}
+
+ul#navigation-top li {
+	display: inline;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 2px 10px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+	ul#navigation-top li {float: right;}
+}
+
+ul#navigation-top li a, a:active, a:visited {
+	font-family: 'Slabo 27px', serif;
+	color: #9d9d9d;
+	background-color: #2d2d2a;
+	padding: 5px 10px;
+	border: 1px solid #2d2d2a;
+	-webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			 -o-border-radius: 10px; 
+					border-radius: 10px;
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+ul#navigation-top li a:hover, a:focus {
+	font-family: 'Slabo 27px', serif;
+	color: #fff;
+	background-color: #transparent;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			 -o-border-radius: 10px; 
+					border-radius: 10px;
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+ul#navigation-top li a.active{
+	font-family: 'Slabo 27px', serif;
+	color: #fff;
+	background-color: #transparent;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 10px;
+		 -moz-border-radius: 10px;
+			-ms-border-radius: 10px;
+			 -o-border-radius: 10px; 
+					border-radius: 10px;
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+/* MAIN CONTENT STYLES */
+
+a.accordion-link {cursor: pointer;}
+
+a.accordion-link:active {
+	background-color: transparent;
+	padding: 0;
+	border: none;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+}
+
+.list-group-item {padding: 0;}
+
+[itemprop='dateCreated'] {
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+/* BOTTOM NAVIGATION BAR STYLES */
+
+.navbar-fixed-bottom {	height: 65px;}
+
+p.copyright {
+	padding-top: 15px;
+	color: #fff;
+}
+
+/* CLEARFIX */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+* html .clearfix {height: 1%;}
+
+html[xmlns] .clearfix {display: block;}
+
+.clearfix {display: inline-block;}
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	clear: both; 
+	visibility: hidden; 
+	line-height: 0; 
+	height: 0;
+}
